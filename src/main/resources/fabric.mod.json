@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "judesmod",
+	"version": "${version}",
+	"name": "Jude's Mod",
+	"description": "This is a Mod for Jude's Server!",
+	"authors": [
+		"Amici!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/judesmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.amici.judesmod.JudesMod"
+		],
+		"fabric-datagen": [
+			"net.amici.judesmod.JudesModDataGenerator"
+		],
+		"client": [
+			"net.amici.judesmod.JudesModClient"
+		]
+	},
+	"mixins": [
+		"judesmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
