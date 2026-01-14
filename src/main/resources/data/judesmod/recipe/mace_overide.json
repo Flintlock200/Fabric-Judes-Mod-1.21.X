@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:heavy_core"
+    },
+    "%": {
+      "item": "miecraft:breeze_rod"
+    }
+  },
+  "pattern": [
+    " # ",
+    " % ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dirt_block"
+  }
+}

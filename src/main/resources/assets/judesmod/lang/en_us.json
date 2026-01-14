@@ -5,6 +5,9 @@
   "block.judesmod.pink_garnet_block": "Block of Pink Garnet",
   "block.judesmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
+  "block.judesmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.judesmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
   "itemgroup.judesmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.judesmod.pink_garnet_blocks": "Pink Garnet Blocks"
 }
